@@ -1,12 +1,12 @@
 package tracker;
 
-import protocol.MensagemP2P;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import protocol.MensagemP2P;
 
 public class TrackerServer {
     private static final int PORTA_TRACKER = 8000;
